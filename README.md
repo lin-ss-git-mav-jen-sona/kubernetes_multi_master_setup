@@ -1,12 +1,10 @@
-#
-# Mithun Technologies Marathahalli, Banglore.  Ph: +91-8296242028 / +91-9980923226
 ## Agenda: Multi Master K8's Cluster Setup Using Kubeadm In AWS EC2 Ubuntu Servers
 ---
 ### What is Kubeadm ? 
 Kubeadm is a tool built to provide kubeadm init and kubeadm join as best-practice  for creating Kubernetes clusters. kubeadm performs the actions necessary to get a cluster up and running.
 ### Pre-requisite 
 
-For this demo, we will use 3 master and 2 worker node to create a multi master kubernetes cluster using kubeadm installation tool. Below are the pre-requisite requirements for the installation:
+we will use 3 master and 2 worker node to create a multi master kubernetes cluster using kubeadm installation tool. Below are the pre-requisite requirements for the installation:
 
 * 3 machines for master, ubuntu 20.04+, 2 CPU, 4 GB RAM, 10 GB storage
 * 2 machines for worker, ubuntu 20.04+, 1 CPU, 1 GB RAM, 10 GB storage
